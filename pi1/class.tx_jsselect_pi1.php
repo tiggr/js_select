@@ -42,9 +42,6 @@
  *          TOTAL FUNCTIONS: 5
  */
 
-// Requires the TYPO3 FE plugin base
-require_once( PATH_tslib . 'class.tslib_pibase.php' );
-
 class tx_jsselect_pi1 extends tslib_pibase
 {
     // Extension configuration array
