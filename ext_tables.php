@@ -53,9 +53,6 @@ $tempColumns = array(
     )
 );
 
-// Load the TCA for the 'pages' table
-t3lib_div::loadTCA( 'pages' );
-
 // Adds the fields to the 'pages' TCA
 t3lib_extMgm::addTCAcolumns( 'pages', $tempColumns, 1 );
 
