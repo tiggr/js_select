@@ -1,0 +1,20 @@
+{
+	"name": "tiggr/js-select",
+	"type": "typo3-cms-extension",
+	"description": "Select one or more JavaScript file(s) for each page of the tree...",
+	"homepage": "https://typo3.org",
+	"license": ["GPL-2.0+"],
+
+	"require": {
+		"typo3/cms-core": "*"
+	},
+	"replace": {
+		"js_select": "self.version"
+	},
+	"autoload": {
+		"classmap": [
+			"pi1",
+			"class.tx_jsselect_handlejavascripts.php"
+		]
+	}
+}
