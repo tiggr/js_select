@@ -42,7 +42,7 @@
  *          TOTAL FUNCTIONS: 5
  */
 
-class tx_jsselect_pi1 extends \TYPO3\CMS\Frontend\Plugin\AbstractPlugin::class
+class tx_jsselect_pi1 extends \TYPO3\CMS\Frontend\Plugin\AbstractPlugin
 {
     // Extension configuration array
     protected $_extConf   = array();
