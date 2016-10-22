@@ -11,7 +11,6 @@ $tempColumns = array(
             'itemsProcFunc' => 'tx_jsselect_handleJavascripts->main',
             'size'          => 10,
             'maxitems'      => 10,
-            'iconsInOptionTags' => true
         )
     ),
     'tx_jsselect_inheritance' => array(
