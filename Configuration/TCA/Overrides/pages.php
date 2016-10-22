@@ -7,6 +7,7 @@ $tempColumns = array(
         'label'   => 'LLL:EXT:js_select/locallang_db.php:pages.tx_jsselect_javascripts',
         'config'  => array(
             'type'          => 'select',
+            'renderType'    => 'selectMultipleSideBySide',
             'items'         => array(),
             'itemsProcFunc' => 'tx_jsselect_handleJavascripts->main',
             'size'          => 10,
@@ -18,6 +19,7 @@ $tempColumns = array(
         'label'   => 'LLL:EXT:js_select/locallang_db.php:pages.tx_jsselect_inheritance',
         'config'  => array(
             'type'          => 'select',
+            'renderType'    => 'selectSingle',
             'items'         => array(
                 array(
                     'LLL:EXT:js_select/locallang_db.php:pages.tx_jsselect_inheritance.I.0',
